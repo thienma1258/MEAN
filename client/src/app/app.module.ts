@@ -5,14 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './component/navbar/navbar.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
